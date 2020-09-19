@@ -32,7 +32,7 @@ export const Form = styled.form<FormProps>`
         ${(props) => props.hasError && 
         css`
             border-color: #c53030;
-            border-right: 0;
+            border-right: none;
         `}
 
         &::placeholder {
